@@ -1,0 +1,71 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00b7ff;
+}
+
+.empty {
+  font-size: 16px;
+  color: #ffc107;
+}
+
+.logout {
+  margin-left: auto;
+  margin-right: 15px;
+}
+
+.home {
+  background-image: url("../images/weather-back.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  color: #f8edeb;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navItem {
+  margin-bottom: 10px;
+}
+
+.get_started {
+  margin-bottom: 70px;
+}
+
+.header {
+  margin-bottom: 50px;
+  color: #ffffff;
+}
+
+h6 {
+  font-size: 90%;
+}
+
+li {
+  list-style: none;
+}
+
+.fa-times-circle {
+  color: rgb(235, 161, 25);
+}
+
+.svg-sun,
+.svg-cloud {
+  width: 50px;
+  height: 50px;
+}
+
+#worldmap {
+  height: 400px;
+}
